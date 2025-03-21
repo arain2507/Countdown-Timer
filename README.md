@@ -16,7 +16,8 @@ This is a **beautiful and responsive countdown timer** built using **HTML, CSS, 
 - **JavaScript-powered timer logic**
 
 ## 📸 Screenshot
-![Countdown Timer](screenshot.png)
+![Countdown Timer](screenshot1.png)
+![Countdown Timer](screenshot2.png)
 
 ## 🔧 How to Use
 1. Enter a **date & time** in the input field.
