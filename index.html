@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+    <div class="input-container">
+        <label for="datetime">Enter Date & Time: </label>
+        <input type="datetime-local" id="datetime">
+        <button onclick="startCountdown()">Start</button>
+    </div>
+    
+    <div class="timer-container" id="timer-container">
+        <div class="circle">
+            <svg width="120" height="120">
+                <circle cx="60" cy="60" r="50" class="bg" />
+                <circle cx="60" cy="60" r="50" class="progress" id="days-progress" />
+            </svg>
+            <div class="label" id="days">0</div>
+            <div class="text">DAYS</div>
+        </div>
+        <div class="circle">
+            <svg width="120" height="120">
+                <circle cx="60" cy="60" r="50" class="bg" />
+                <circle cx="60" cy="60" r="50" class="progress" id="hours-progress" />
+            </svg>
+            <div class="label" id="hours">0</div>
+            <div class="text">HOURS</div>
+        </div>
+        <div class="circle">
+            <svg width="120" height="120">
+                <circle cx="60" cy="60" r="50" class="bg" />
+                <circle cx="60" cy="60" r="50" class="progress" id="minutes-progress" />
+            </svg>
+            <div class="label" id="minutes">0</div>
+            <div class="text">MINUTES</div>
+        </div>
+        <div class="circle">
+            <svg width="120" height="120">
+                <circle cx="60" cy="60" r="50" class="bg" />
+                <circle cx="60" cy="60" r="50" class="progress" id="seconds-progress" />
+            </svg>
+            <div class="label" id="seconds">0</div>
+            <div class="text">SECONDS</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
