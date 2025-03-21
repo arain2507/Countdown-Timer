@@ -14,10 +14,7 @@ This is a **beautiful and responsive countdown timer** built using **HTML, CSS, 
 - **Responsive design for mobile & desktop**
 - **Animated progress circles**
 - **JavaScript-powered timer logic**
-
-## 📸 Screenshot
-![Countdown Timer](screenshot1.png)
-![Countdown Timer](screenshot2.png)
+- 
 
 ## 🔧 How to Use
 1. Enter a **date & time** in the input field.
@@ -37,8 +34,6 @@ Clone the repository and open `index.html` in your browser:
   open index.html
 ```
 
-## 📄 License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ## 💡 Author
 Developed by **Abrar Ahmed**
